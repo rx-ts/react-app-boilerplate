@@ -1,0 +1,9 @@
+.type-coverage
+dist
+node_modules
+/stats.html
+/test.*
+.*cache
+*.log
+*.tsbuildinfo
+.*.local

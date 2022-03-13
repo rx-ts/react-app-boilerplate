@@ -1,0 +1,43 @@
+{
+  "root": true,
+  "extends": "@1stg",
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "extends": "plugin:react/jsx-runtime",
+      "rules": {
+        "@typescript-eslint/consistent-type-imports": 2,
+        "react-hooks/exhaustive-deps": [
+          2,
+          {
+            "additionalHooks": "useEnhancedCallback"
+          }
+        ],
+        "react/self-closing-comp": 2,
+        "react/prefer-stateless-function": 2,
+        "react/void-dom-elements-no-children": 2
+      }
+    },
+    {
+      "files": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+      ],
+      "excludedFiles": [
+        "*.d.ts"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          2,
+          {
+            "devDependencies": false,
+            "bundledDependencies": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+@import 'mixins';
+
+@import '_themes.less';
+
+:root {
+  scroll-padding-top: @layout-header-height + 10px;
+
+  &,
+  &[data-theme='light'] {
+    .theme-light;
+  }
+
+  &[data-theme='dark'] {
+    .theme-dark;
+  }
+
+  @media (prefers-color-scheme: light) {
+    .theme-light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .theme-dark;
+  }
+}
+
+.theme;
+
+#app {
+  .cover-size;
+}
+
+/**
+ * https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers
+ * Change Autocomplete styles in Chrome
+ */
+input,
+select,
+textarea {
+  &:-webkit-autofill {
+    &,
+    &:hover,
+    &:focus {
+      // stylelint-disable-next-line plugin/no-low-performance-animation-properties
+      transition: background-color 6000s ease-in-out 0s;
+    }
+  }
+}
+
+.relative {
+  .relative;
+}
+
+.absolute {
+  .absolute;
+}
+
+.d-flex {
+  .d-flex;
+}
+
+.hidden {
+  .hidden;
+}
+
+.text-sm {
+  .text-sm;
+}
+
+.text-center {
+  .text-center;
+}
+
+.align-center {
+  .align-center;
+}
+
+.justify-center {
+  .justify-center;
+}
+
+.fx-center {
+  .fx-center;
+}
+
+.cover-size {
+  .cover-size;
+}
+
+.pointer {
+  .pointer;
+}
+
+.list-unstyled {
+  .list-unstyled;
+}
+
+.speed {
+  .speed;
+}
+
+.text-help {
+  color: @text-color-help !important;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.icon-help {
+  .text-help;
+
+  &:hover {
+    .color(primary) !important;
+  }
+}
+
+.text-xs {
+  .text-xs !important;
+}
+
+@fxRange: 1, 2;
+
+each(@fxRange, {
+  .fx-@{value} {
+    flex: @value;
+  }
+});
+
+/* stylelint-disable property-no-unknown -- https://github.com/stylelint/stylelint/issues/5375#ticketcomment-903633042 */
+@directions: {
+  t: top;
+  r: right;
+  b: bottom;
+  l: left;
+  x: left, right;
+  y: top, bottom;
+};
+
+@spaceTypes: {
+  m: margin;
+  p: padding;
+};
+/* stylelint-enable property-no-unknown */
+
+// we're not using `range` here, because only several numbers are picked
+@spaceSizes: -20, 0, 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 48, 64;
+
+each(@spaceTypes, .(@vt, @kt) {
+  each(@spaceSizes, {
+    .@{kt}-@{value} {
+      @{vt}: unit(@value, px) !important;
+    }
+  })
+
+  each(@directions, .(@vd, @kd) {
+    & when (iskeyword(@vd)) {
+      .@{kt}@{kd}-auto {
+        @{vt}-@{vd}: auto !important;
+      }
+
+      each(@spaceSizes, {
+        .@{kt}@{kd}-@{value} {
+          @{vt}-@{vd}: unit(@value, px) !important;
+        }
+      });
+    }
+
+    & when (not (iskeyword(@vd))) {
+      .@{kt}@{kd}-auto {
+        each(@vd, .(@v) {
+          @{vt}-@{v}: auto !important;
+        })
+      }
+
+      each(@spaceSizes, {
+        @vs: @value;
+
+        .@{kt}@{kd}-@{vs} {
+          each(@vd, .(@v) {
+            @{vt}-@{v}: unit(@vs, px) !important;
+          })
+        }
+      })
+    }
+  });
+
+  each(@breakpoints, .(@vb, @kb) {
+    @media screen and (min-width: unit(@vb, px)) {
+      each(@spaceSizes, {
+        .@{kt}-@{kb}-@{value} {
+          @{vt}: unit(@value, px) !important;
+        }
+      });
+
+      each(@directions, .(@vd, @kd) {
+        & when (iskeyword(@vd)) {
+          .@{kt}@{kd}-@{kb}-auto {
+            @{vt}-@{vd}: auto !important;
+          }
+
+          each(@spaceSizes, {
+            .@{kt}@{kd}-@{kb}-@{value} {
+              @{vt}-@{vd}: unit(@value, px) !important;
+            }
+          });
+        }
+
+        & when (not (iskeyword(@vd))) {
+          each(@vd, .(@v) {
+            .@{kt}@{kd}-@{kb}-auto {
+              @{vt}-@{v}: auto !important;
+            }
+          });
+
+          each(@spaceSizes, {
+            @vs: @value;
+
+            .@{kt}@{kd}-@{kb}-@{vs} {
+              each(@vd, .(@v) {
+                @{vt}-@{v}: unit(@vs, px) !important;
+              })
+            }
+          });
+        }
+      });
+    }
+  });
+});
+
+.tooltip-info {
+  &:not(.overflow) {
+    max-width: none;
+  }
+
+  &.no-arrow {
+    .@{ant-prefix}-tooltip-arrow {
+      .d-none;
+    }
+  }
+
+  .@{ant-prefix}-tooltip {
+    @arrow-color: #fff;
+
+    &-arrow-content {
+      background-color: @arrow-color;
+    }
+
+    &-inner {
+      padding: 12px;
+      background-color: @arrow-color;
+      color: @text-color-secondary;
+    }
+  }
+
+  &__title {
+    color: @text-color;
+  }
+}
