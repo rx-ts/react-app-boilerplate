@@ -98,6 +98,9 @@ export const mock: RequestHandler = (req, res) =>
           url: req.url,
           method,
           query: req.query,
+          // We can not fix it on our side
+          // see also https://github.com/plantain-00/type-coverage/issues/101#issuecomment-1066116668
+          // type-coverage:ignore-next-line
           body: req.body as T,
         })
       } catch (err) {

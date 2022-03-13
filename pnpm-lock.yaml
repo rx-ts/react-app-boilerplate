@@ -45,7 +45,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.6.0
   rxjs: ^7.5.5
   ts-eager: ^2.0.2
-  type-coverage: ^2.21.0
+  type-coverage: ^2.21.1
   typed-query-selector: ^2.6.1
   vite: ^2.8.6
   vite-plugin-style-import: ^2.0.0
@@ -54,7 +54,6 @@ dependencies:
   '@ant-design/icons': 4.7.0_bc22c48adf1a4e34a005159413cd72b5
   antd: 4.19.1_bc22c48adf1a4e34a005159413cd72b5
   classnames: 2.3.1
-  clsx: 1.1.1
   react: 18.0.0-rc.2
   react-dom: 18.0.0-rc.2_react@18.0.0-rc.2
   react-error-boundary: 3.1.4_react@18.0.0-rc.2
@@ -80,6 +79,7 @@ devDependencies:
   '@vitejs/plugin-react': 1.2.0
   '@welldone-software/why-did-you-render': 6.2.3_react@18.0.0-rc.2
   body-parser: 1.19.2
+  clsx: 1.1.1
   compression: 1.7.4
   connect-history-api-fallback: 1.6.0
   consola: 2.15.3
@@ -99,7 +99,7 @@ devDependencies:
   proxy-agent: 5.0.0
   rollup-plugin-visualizer: 5.6.0
   ts-eager: 2.0.2
-  type-coverage: 2.21.0
+  type-coverage: 2.21.1
   typed-query-selector: 2.6.1
   vite: 2.8.6_less@4.1.2
   vite-plugin-style-import: 2.0.0_vite@2.8.6
@@ -5616,7 +5616,7 @@ packages:
         integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==,
       }
     engines: { node: '>=6' }
-    dev: false
+    dev: true
 
   /co/3.1.0:
     resolution: { integrity: sha1-TqVOpaCJOBUxheFSEMaNkJK8G3g= }
@@ -16869,10 +16869,10 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core/2.21.0:
+  /type-coverage-core/2.21.1:
     resolution:
       {
-        integrity: sha512-VNC7Ig0KAzpYjWvxQ1SaMufEqSm4GPSsdVaCWA5fRHSjSvkXbPVK+C6H0lIq2t8brkrvnXk7iDs9g4sjux6JQw==,
+        integrity: sha512-TpsLOfUE/CkHFvISitoro6hJBJoDsC9gpTMnbIofMFg13JnqnpC0n4ber4D66ks42+mkqKRXg6hgUOmQ/DR2BQ==,
       }
     peerDependencies:
       typescript: 2 || 3 || 4
@@ -16884,15 +16884,15 @@ packages:
       tsutils: 3.21.0
     dev: true
 
-  /type-coverage/2.21.0:
+  /type-coverage/2.21.1:
     resolution:
       {
-        integrity: sha512-gsSgEhCluPAUsIf6CDftHK7qx8+jabsBZdsbqxJYP4lSbeoVZ/IHz7sb4Ylg6LLgB6PhrJOkbAYTnOhQLRK8wA==,
+        integrity: sha512-3NPFbC/LWDFuSCafxmLqBRLjxn40IP9g6j8FXXUXs5GbYDG3FBMX/s0bIc+i6nsXiifA1OvKTwSX2Az1LQMdbw==,
       }
     hasBin: true
     dependencies:
       minimist: 1.2.5
-      type-coverage-core: 2.21.0
+      type-coverage-core: 2.21.1
     transitivePeerDependencies:
       - typescript
     dev: true
