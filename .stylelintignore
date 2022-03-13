@@ -1,0 +1,24 @@
+assets
+dist
+Dockerfile
+LICENSE
+/stats.html
+/test.*
+*.conf
+*.eot
+*.gif
+*.jpeg
+*.jpg
+*.json
+*.log
+*.patch
+*.properties
+*.png
+*.svg
+*.tsbuildinfo
+*.ttf
+*.woff
+*.woff2
+# https://github.com/stylelint/stylelint/issues/5552
+# *.tsx
+*.yaml

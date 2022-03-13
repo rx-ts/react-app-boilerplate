@@ -1,0 +1,15 @@
+{
+  "extends": "@1stg/tsconfig/app",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsxdev",
+    "paths": {
+      "*": ["src/*"],
+      "classnames": ["clsx"],
+      "lodash": ["lodash-es"],
+      "assets/*": ["assets/*"],
+      "server": ["server"],
+      "shared": ["shared"]
+    }
+  }
+}
