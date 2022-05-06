@@ -12,7 +12,7 @@ specifiers:
   '@types/express': ^4.17.13
   '@types/html-minifier-terser': ^6.1.0
   '@types/lodash-es': ^4.17.6
-  '@types/react': ^17.0.43
+  '@types/react': ^17.0.45
   '@types/react-dom': ^17.0.14
   '@vitejs/plugin-react': ^1.2.0
   '@welldone-software/why-did-you-render': ^6.2.3
@@ -74,7 +74,7 @@ devDependencies:
   '@types/express': 4.17.13
   '@types/html-minifier-terser': 6.1.0
   '@types/lodash-es': 4.17.6
-  '@types/react': 17.0.43
+  '@types/react': 17.0.45
   '@types/react-dom': 17.0.14
   '@vitejs/plugin-react': 1.2.0
   '@welldone-software/why-did-you-render': 6.2.3_react@18.0.0-rc.2
@@ -3005,11 +3005,11 @@ packages:
   /@types/react-dom/17.0.14:
     resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
     dependencies:
-      '@types/react': 17.0.43
+      '@types/react': 17.0.45
     dev: true
 
-  /@types/react/17.0.43:
-    resolution: {integrity: sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==}
+  /@types/react/17.0.45:
+    resolution: {integrity: sha512-YfhQ22Lah2e3CHPsb93tRwIGNiSwkuz1/blk4e6QrWS0jQzCSNbGLtOEYhPg02W0yGTTmpajp7dCTbBAMN3qsg==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
