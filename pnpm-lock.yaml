@@ -24,7 +24,7 @@ specifiers:
   connect-history-api-fallback: ^1.6.0
   consola: ^2.15.3
   dotenv: ^16.0.1
-  dotenv-expand: ^8.0.2
+  dotenv-expand: ^8.0.3
   express: ^4.17.3
   html-minifier-terser: ^7.0.0-alpha.2
   http-proxy-middleware: ^2.0.3
@@ -84,7 +84,7 @@ devDependencies:
   connect-history-api-fallback: 1.6.0
   consola: 2.15.3
   dotenv: 16.0.1
-  dotenv-expand: 8.0.2
+  dotenv-expand: 8.0.3
   express: 4.17.3
   html-minifier-terser: 7.0.0-alpha.2
   http-proxy-middleware: 2.0.3_@types+express@4.17.13
@@ -5193,8 +5193,8 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dotenv-expand/8.0.2:
-    resolution: {integrity: sha512-vKKAk+VOzAWOV/dPIeSYqhgC/TQY+6L6Ibkzfsr8xd1stdBsTuGu9asCOXgbYbBeS+f2Y6lqqEuw7riOA+xEUQ==}
+  /dotenv-expand/8.0.3:
+    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
     engines: {node: '>=12'}
     dev: true
 
