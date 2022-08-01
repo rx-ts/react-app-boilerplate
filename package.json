@@ -63,7 +63,7 @@
     "connect-history-api-fallback": "^1.6.0",
     "consola": "^2.15.3",
     "dotenv": "^16.0.1",
-    "dotenv-expand": "^8.0.2",
+    "dotenv-expand": "^8.0.3",
     "express": "^4.17.3",
     "html-minifier-terser": "^7.0.0-alpha.2",
     "http-proxy-middleware": "^2.0.3",
