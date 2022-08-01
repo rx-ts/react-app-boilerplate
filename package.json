@@ -53,7 +53,7 @@
     "@types/express": "^4.17.13",
     "@types/html-minifier-terser": "^6.1.0",
     "@types/lodash-es": "^4.17.6",
-    "@types/react": "^17.0.45",
+    "@types/react": "^17.0.48",
     "@types/react-dom": "^17.0.17",
     "@vitejs/plugin-react": "^1.2.0",
     "@welldone-software/why-did-you-render": "^6.2.3",
