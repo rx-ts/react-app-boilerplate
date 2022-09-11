@@ -27,7 +27,7 @@ specifiers:
   dotenv-expand: ^8.0.3
   express: ^4.17.3
   html-minifier-terser: ^7.0.0-alpha.2
-  http-proxy-middleware: ^2.0.3
+  http-proxy-middleware: ^2.0.6
   less: ^4.1.2
   lodash: ^4.17.21
   lodash-es: ^4.17.21
@@ -87,7 +87,7 @@ devDependencies:
   dotenv-expand: 8.0.3
   express: 4.17.3
   html-minifier-terser: 7.0.0-alpha.2
-  http-proxy-middleware: 2.0.3_@types+express@4.17.13
+  http-proxy-middleware: 2.0.6_@types+express@4.17.13
   less: 4.1.2
   lodash-es: 4.17.21
   node-fs-storage: 0.1.1
@@ -7169,8 +7169,8 @@ packages:
       - supports-color
     dev: true
 
-  /http-proxy-middleware/2.0.3_@types+express@4.17.13:
-    resolution: {integrity: sha512-1bloEwnrHMnCoO/Gcwbz7eSVvW50KPES01PecpagI+YLNLci4AcuKJrujW4Mc3sBLpFxMSlsLNHS5Nl/lvrTPA==}
+  /http-proxy-middleware/2.0.6_@types+express@4.17.13:
+    resolution: {integrity: sha512-ya/UeJ6HVBYxrgYotAZo1KvPWlgB48kUJLDePFeneHsVujFaW5WNj2NgWCAE//B1Dl02BIfYlpNgBy8Kf8Rjmw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/express': ^4.17.13
@@ -7542,7 +7542,7 @@ packages:
     dev: true
 
   /is-extglob/2.1.1:
-    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -7633,7 +7633,7 @@ packages:
     dev: true
 
   /is-plain-obj/1.1.0:
-    resolution: {integrity: sha1-caUMhCnfync8kqOQpKA7OfzVHT4=}
+    resolution: {integrity: sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -11845,7 +11845,7 @@ packages:
     dev: true
 
   /requires-port/1.0.0:
-    resolution: {integrity: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=}
+    resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
     dev: true
 
   /resize-observer-polyfill/1.5.1:
