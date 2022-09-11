@@ -1,8 +1,8 @@
+import { useConstant } from '@react-enhanced/hooks'
 import { useContext, useState, useEffect, useCallback } from 'react'
 
 import { ThemeContext } from './context'
 
-import { useConstant } from 'hooks'
 import type { Theme } from 'styles'
 
 export const useTheme = () => useContext(ThemeContext)

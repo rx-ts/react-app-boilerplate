@@ -7,8 +7,8 @@ declare namespace api {
 
 declare namespace i18n {
   export interface Translations {
-    en: import('./plugins').Translation
-    zh: import('./plugins').Translation
+    en: import('@react-enhanced/plugins').Translation
+    zh: import('@react-enhanced/plugins').Translation
   }
 
   export type I18n = import('./i18n').I18n

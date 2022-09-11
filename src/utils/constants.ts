@@ -1,4 +1,4 @@
-import { Locale } from 'plugins/translate'
+import { Locale } from '@react-enhanced/plugins'
 
 export const TOGGLE_LOCALE_MAPPER = {
   [Locale.EN]: Locale.ZH,

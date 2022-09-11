@@ -1,10 +1,9 @@
 import { LoadingOutlined } from '@ant-design/icons'
+import { useTranslate } from '@react-enhanced/plugins'
 import type { SpinProps } from 'antd'
 import { Spin } from 'antd'
 import cls from 'classnames'
 import type { FC, ReactElement } from 'react'
-
-import { useTranslate } from 'plugins'
 
 export interface LoadingProps
   extends Omit<SpinProps, 'spinning' | 'wrapperClassName'> {

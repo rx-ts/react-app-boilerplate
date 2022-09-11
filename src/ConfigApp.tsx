@@ -1,3 +1,5 @@
+import type { Locale } from '@react-enhanced/plugins'
+import { useTranslate } from '@react-enhanced/plugins'
 import { ConfigProvider } from 'antd'
 import enUS from 'antd/es/locale/en_US'
 import zhCN from 'antd/es/locale/zh_CN'
@@ -5,8 +7,6 @@ import type { Locale as AntLocale } from 'antd/es/locale-provider'
 import { merge } from 'lodash'
 import type { FC, PropsWithChildren } from 'react'
 
-import type { Locale } from 'plugins'
-import { useTranslate } from 'plugins'
 import { ANT_PREFIX } from 'styles'
 import type { PartialDeep } from 'types'
 

@@ -1,3 +1,4 @@
+import { useTranslate } from '@react-enhanced/plugins'
 import { Button, Result } from 'antd'
 import { memoize } from 'lodash'
 import type { ComponentType, FC, ReactElement } from 'react'
@@ -6,7 +7,6 @@ import type { FallbackProps } from 'react-error-boundary'
 import { ErrorBoundary } from 'react-error-boundary'
 
 import { Loading } from 'components'
-import { useTranslate } from 'plugins'
 import { getPageFile } from 'utils'
 
 export interface LazyPage {

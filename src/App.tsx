@@ -1,3 +1,9 @@
+import {
+  DEFAULT_LOCALE,
+  Locale,
+  TranslateContext,
+  setLang,
+} from '@react-enhanced/plugins'
 import { useMemo, useState } from 'react'
 import {
   BrowserRouter as Router,
@@ -15,10 +21,6 @@ import { ConfigApp } from './ConfigApp'
 import { core } from 'i18n/core'
 import { Login, Main } from 'layouts'
 import {
-  DEFAULT_LOCALE,
-  Locale,
-  TranslateContext,
-  setLang,
   AuthContext,
   ThemeContext,
   THEME_STORAGE,

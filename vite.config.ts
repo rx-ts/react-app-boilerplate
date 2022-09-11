@@ -5,11 +5,11 @@ import { __DEV__ } from '@pkgr/utils'
 import replace from '@rollup/plugin-replace'
 import strip from '@rollup/plugin-strip'
 import react from '@vitejs/plugin-react'
+import { html } from '@vitery/html'
+import { svgr } from '@vitery/svgr'
 import { visualizer } from 'rollup-plugin-visualizer'
 import { defineConfig } from 'vite'
 import { AntdResolve, createStyleImportPlugin } from 'vite-plugin-style-import'
-
-import { html, svgr } from './vite'
 
 import { isEnvEnabled, TEMPLATE_OPTIONS } from 'shared'
 import { ANT_PREFIX, themeVars } from 'styles'
