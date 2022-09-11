@@ -51,7 +51,7 @@ const main = async () => {
   if (__DEV__) {
     const viteServer = await createServer({
       server: {
-        middlewareMode: 'html',
+        middlewareMode: true,
       },
     })
     app

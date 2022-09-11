@@ -9,5 +9,6 @@ export enum ApiMethod {
 }
 
 export const TEMPLATE_OPTIONS: TemplateOptions = Object.freeze({
+  // eslint-disable-next-line regexp/match-any
   interpolate: /{{([\S\s]+?)}}/g,
 })

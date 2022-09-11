@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'node:fs'
 
 import { findUp, NODE_ENV } from '@pkgr/utils'
 import dotenv from 'dotenv'

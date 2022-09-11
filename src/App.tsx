@@ -92,10 +92,21 @@ export const App = () => {
               <Routes>
                 <Route
                   path="/"
-                  element={<Navigate to="/home" replace={true} />}
+                  element={
+                    <Navigate
+                      to="/home"
+                      replace={true}
+                    />
+                  }
                 />
-                <Route path="/login" element={<Login />} />
-                <Route path="*" element={<Main />} />
+                <Route
+                  path="/login"
+                  element={<Login />}
+                />
+                <Route
+                  path="*"
+                  element={<Main />}
+                />
               </Routes>
             </Router>
           </ConfigApp>

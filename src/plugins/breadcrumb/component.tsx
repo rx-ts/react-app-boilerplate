@@ -1,10 +1,12 @@
-import type { FC, ReactNode } from 'react'
+import type { FC, PropsWithChildren, ReactNode } from 'react'
 import { useEffect, useState } from 'react'
 
 import { BreadcrumbContext } from './context'
 import { useBreadcrumb } from './hook'
 
-export const BreadcrumbContextProvider: FC = ({ children }) => {
+export const BreadcrumbContextProvider: FC<PropsWithChildren> = ({
+  children,
+}) => {
   const [breadcrumb, setBreadcrumb] = useState<ReactNode>(null)
   return (
     <BreadcrumbContext.Provider value={{ breadcrumb, setBreadcrumb }}>
@@ -13,7 +15,7 @@ export const BreadcrumbContextProvider: FC = ({ children }) => {
   )
 }
 
-export const BreadCrumb: FC = ({ children }) => {
+export const BreadCrumb: FC<PropsWithChildren> = ({ children }) => {
   const { setBreadcrumb } = useBreadcrumb()
   useEffect(() => {
     setBreadcrumb(children)

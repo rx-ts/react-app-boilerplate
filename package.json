@@ -6,8 +6,9 @@
   "homepage": "https://github.com/rx-ts/react-app-boilerplate#readme",
   "author": "",
   "license": "MIT",
+  "packageManager": "pnpm@7.11.0",
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "keywords": [
     "react",
@@ -16,71 +17,72 @@
     "react-app-boilerplate"
   ],
   "scripts": {
-    "analyze": "cross-env ANALYZE=1 pnpm build",
+    "analyze": "ANALYZE=1 pnpm build",
     "build": "pnpm vite build",
     "dev": "nodemon",
-    "lint": "run-p lint:*",
+    "lint": "run-p 'lint:*'",
     "lint:es": "eslint . --cache -f friendly",
     "lint:style": "stylelint . --cache",
-    "lint:tsc": "tsc --noEmit",
+    "lint:ts": "tsc --noEmit",
     "prepare": "simple-git-hooks",
-    "start": "cross-env NODE_ENV=production nodemon",
-    "ts": "node -r ts-eager/register",
+    "start": "NODE_ENV=production nodemon",
     "typecov": "type-coverage",
-    "vite": "pnpm ts node_modules/vite/bin/vite.js"
+    "vite": "tsx node_modules/vite/bin/vite.js"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "antd": "^4.19.1",
+    "antd": "^4.23.1",
     "classnames": "^2.3.1",
-    "react": "^18.0.0-rc.2",
-    "react-dom": "^18.0.0-rc.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-error-boundary": "^3.1.4",
-    "react-router-dom": "^6.2.2",
-    "rxjs": "^7.5.5"
+    "react-router-dom": "^6.3.0",
+    "rxjs": "^7.5.6"
   },
   "optionalDependencies": {
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@1stg/app-config": "^3.1.0",
+    "@1stg/app-config": "^7.2.1",
     "@rollup/plugin-replace": "^4.0.0",
     "@rollup/plugin-strip": "^2.1.0",
-    "@stylelint/postcss-css-in-js": "^0.37.2",
-    "@svgr/core": "^6.2.1",
+    "@stylelint/postcss-css-in-js": "^0.38.0",
+    "@svgr/core": "^6.3.1",
     "@types/compression": "^1.7.2",
     "@types/connect-history-api-fallback": "^1.3.5",
     "@types/express": "^4.17.13",
-    "@types/html-minifier-terser": "^6.1.0",
+    "@types/html-minifier-terser": "^7.0.0",
     "@types/lodash-es": "^4.17.6",
-    "@types/react": "^17.0.40",
-    "@types/react-dom": "^17.0.13",
-    "@vitejs/plugin-react": "^1.2.0",
-    "@welldone-software/why-did-you-render": "^6.2.3",
-    "body-parser": "^1.19.2",
-    "clsx": "^1.1.1",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "@welldone-software/why-did-you-render": "^7.0.1",
+    "body-parser": "^1.20.0",
+    "clsx": "^1.2.1",
     "compression": "^1.7.4",
-    "connect-history-api-fallback": "^1.6.0",
+    "connect-history-api-fallback": "^2.0.0",
     "consola": "^2.15.3",
-    "dotenv": "^16.0.0",
-    "dotenv-expand": "^8.0.2",
-    "express": "^4.17.3",
-    "html-minifier-terser": "^7.0.0-alpha.2",
-    "http-proxy-middleware": "^2.0.3",
-    "less": "^4.1.2",
+    "dotenv": "^16.0.2",
+    "dotenv-expand": "^9.0.0",
+    "express": "^4.18.1",
+    "html-minifier-terser": "^7.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "less": "^4.1.3",
     "lodash-es": "^4.17.21",
     "node-fs-storage": "^0.1.1",
-    "nodemon": "^2.0.15",
-    "path-to-regexp": "^6.2.0",
-    "postcss": "^8.4.8",
+    "nodemon": "^2.0.19",
+    "path-to-regexp": "^6.2.1",
+    "postcss": "^8.4.16",
     "postcss-markdown": "^1.2.0",
     "postcss-syntax": "^0.36.2",
     "proxy-agent": "^5.0.0",
-    "rollup-plugin-visualizer": "^5.6.0",
-    "ts-eager": "^2.0.2",
-    "type-coverage": "^2.21.1",
-    "typed-query-selector": "^2.6.1",
-    "vite": "^2.8.6",
+    "rollup-plugin-visualizer": "^5.8.1",
+    "tsx": "^3.9.0",
+    "type-coverage": "^2.22.0",
+    "type-fest": "^2.19.0",
+    "typed-query-selector": "^2.7.0",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0",
     "vite-plugin-style-import": "^2.0.0"
   },
   "browserslist": "extends @1stg/browserslist-config/modern",
@@ -89,7 +91,9 @@
   },
   "eslintIgnore": [
     "assets",
+    "coverage",
     "dist",
+    "/pnpm-lock.yaml",
     "/stats.html",
     "/test.*",
     "!.*.js"
@@ -98,7 +102,7 @@
     "extends": "@1stg/markuplint-config"
   },
   "nodemonConfig": {
-    "exec": "ts-eager server/start",
+    "exec": "tsx server/start",
     "delay": 500,
     "signal": "SIGHUP",
     "ext": ".ts",
@@ -110,6 +114,11 @@
     ],
     "ignore": "server/index.ts"
   },
+  "pnpm": {
+    "overrides": {
+      "rollup": "^2.79.0"
+    }
+  },
   "prettier": "@1stg/prettier-config",
   "renovate": {
     "extends": [
@@ -120,21 +129,6 @@
     "extends": [
       "@1stg/stylelint-config",
       "@1stg/stylelint-config/modules"
-    ],
-    "overrides": [
-      {
-        "files": "**/*.md",
-        "customSyntax": "postcss-markdown"
-      },
-      {
-        "files": [
-          "**/*.js",
-          "**/*.jsx",
-          "**/*.ts",
-          "**/*.tsx"
-        ],
-        "customSyntax": "@stylelint/postcss-css-in-js"
-      }
     ],
     "rules": {
       "at-rule-no-unknown": [

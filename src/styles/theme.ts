@@ -22,7 +22,7 @@ export const themeVars = Object.entries(plates).reduce(
                 index ? `${prefix}${index - 1}` : group,
               ) as keyof typeof plates
               const value = plates[key]
-              Object.assign(acc, {
+              Object.assign(acc as object, {
                 [`theme-${theme}-${(key as string).toLowerCase()}`]: value,
               })
               return acc

@@ -48,7 +48,10 @@ export default () => {
 
   return authInfo ? (
     <Routes>
-      <Route path="home" element={<Page page="home" />} />
+      <Route
+        path="home"
+        element={<Page page="home" />}
+      />
     </Routes>
   ) : (
     <Loading />

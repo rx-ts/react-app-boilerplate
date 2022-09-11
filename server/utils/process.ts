@@ -1,5 +1,5 @@
-import type { SpawnOptions } from 'child_process'
-import { spawn as _spawn } from 'child_process'
+import type { SpawnOptions } from 'node:child_process'
+import { spawn as _spawn } from 'node:child_process'
 
 export const spawn = (
   command: string,

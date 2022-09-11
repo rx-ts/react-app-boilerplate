@@ -1,4 +1,4 @@
-import path from 'path'
+import path from 'node:path'
 
 import { tryRequirePkg } from '@pkgr/utils'
 import type { RequestHandler } from 'express'
@@ -38,7 +38,11 @@ const setMockModuleCache = async () => {
     const pattern =
       '/' +
       file
-        .replace(/(\/index)?\.ts/, '')
+        .replace(
+          // eslint-disable-next-line regexp/no-unused-capturing-group
+          /(\/index)?\.ts/,
+          '',
+        )
         /**
          * change `[name]` to `:name`, `\` to `/`
          * We're not using `:name` in filename due to Windows limitation

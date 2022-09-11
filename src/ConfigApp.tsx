@@ -1,9 +1,9 @@
 import { ConfigProvider } from 'antd'
-import type { Locale as AntLocale } from 'antd/es/locale-provider'
 import enUS from 'antd/es/locale/en_US'
 import zhCN from 'antd/es/locale/zh_CN'
+import type { Locale as AntLocale } from 'antd/es/locale-provider'
 import { merge } from 'lodash'
-import type { FC } from 'react'
+import type { FC, PropsWithChildren } from 'react'
 
 import type { Locale } from 'plugins'
 import { useTranslate } from 'plugins'
@@ -37,7 +37,7 @@ ConfigProvider.config({
   prefixCls: ANT_PREFIX,
 })
 
-export const ConfigApp: FC = ({ children }) => {
+export const ConfigApp: FC<PropsWithChildren> = ({ children }) => {
   const { locale } = useTranslate()
   return (
     <ConfigProvider

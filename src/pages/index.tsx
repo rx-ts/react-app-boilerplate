@@ -81,7 +81,10 @@ export const ErrorFallback: FC<FallbackProps> = ({ error }) => {
          *
          * @see https://github.com/vitejs/vite/issues/5101
          */
-        <Button type="primary" onClick={onReload}>
+        <Button
+          type="primary"
+          onClick={onReload}
+        >
           {t('reload')}
         </Button>
       }
