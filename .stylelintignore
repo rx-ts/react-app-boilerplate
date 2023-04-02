@@ -19,6 +19,5 @@ LICENSE
 *.ttf
 *.woff
 *.woff2
-# https://github.com/stylelint/stylelint/issues/5552
-# *.tsx
+*.tsx
 *.yaml
