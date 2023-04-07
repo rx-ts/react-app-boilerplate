@@ -9,13 +9,16 @@ LICENSE
 *.gif
 *.jpeg
 *.jpg
+*.js
 *.json
 *.log
 *.patch
 *.properties
 *.png
 *.svg
+*.ts
 *.tsbuildinfo
+*.tsx
 *.ttf
 *.woff
 *.woff2

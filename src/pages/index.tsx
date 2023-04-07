@@ -69,7 +69,11 @@ export type PageProps = DynamicPageProps | StaticPageProps
 
 const onReload = () => location.reload()
 
-export const ErrorFallback: FC<FallbackProps> = ({ error }) => {
+export const ErrorFallback: FC<FallbackProps> = ({
+  error,
+}: {
+  error: Error
+}) => {
   const { t } = useTranslate()
   return (
     <Result

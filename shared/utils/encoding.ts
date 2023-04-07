@@ -31,16 +31,20 @@ export const base64Decode = (value: string) =>
 export function base64UrlDecode(str: string) {
   let output = str.replace(/-/g, '+').replace(/_/g, '/')
   switch (output.length % CUT) {
-    case 0:
+    case 0: {
       break
-    case 2:
+    }
+    case 2: {
       output += '=='
       break
-    case 3:
+    }
+    case 3: {
       output += '='
       break
-    default:
+    }
+    default: {
       break
+    }
   }
   try {
     return base64Decode(output)
