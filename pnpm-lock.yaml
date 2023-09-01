@@ -60,8 +60,8 @@ devDependencies:
     specifier: ^7.0.0
     version: 7.0.0
   '@types/lodash-es':
-    specifier: ^4.17.7
-    version: 4.17.7
+    specifier: ^4.17.9
+    version: 4.17.9
   '@types/react':
     specifier: ^18.0.33
     version: 18.0.33
@@ -3759,8 +3759,8 @@ packages:
       '@types/node': 18.15.11
     dev: true
 
-  /@types/lodash-es@4.17.7:
-    resolution: {integrity: sha512-z0ptr6UI10VlU6l5MYhGwS4mC8DZyYer2mCoyysZtSF7p26zOX8UpbrV0YpNYLGS8K4PUFIyEr62IMFFjveSiQ==}
+  /@types/lodash-es@4.17.9:
+    resolution: {integrity: sha512-ZTcmhiI3NNU7dEvWLZJkzG6ao49zOIjEgIE0RgV7wbPxU0f2xT3VSAHw2gmst8swH6V0YkLRGp4qPlX/6I90MQ==}
     dependencies:
       '@types/lodash': 4.14.192
     dev: true
