@@ -72,8 +72,8 @@ devDependencies:
     specifier: ^3.1.0
     version: 3.1.0(vite@4.2.1)
   '@vitery/html':
-    specifier: ^0.0.0
-    version: 0.0.0(vite@4.2.1)
+    specifier: ^0.1.0
+    version: 0.1.0(vite@4.2.1)
   '@vitery/svgr':
     specifier: ^0.0.0
     version: 0.0.0(vite@4.2.1)
@@ -264,7 +264,7 @@ packages:
       npm-run-all: 4.1.5
       prettier: 2.8.8
       simple-git-hooks: 2.8.1
-      tslib: 2.5.0
+      tslib: 2.6.2
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@markuplint/ml-core'
@@ -3521,7 +3521,7 @@ packages:
       imagemin-webp: 8.0.0
       is-glob: 4.0.3
       tiny-glob: 0.2.9
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /@pkgr/utils@2.3.1:
@@ -3533,7 +3533,7 @@ packages:
       open: 8.4.2
       picocolors: 1.0.0
       tiny-glob: 0.2.9
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /@prettier/plugin-pug@2.4.2(prettier@2.8.8):
@@ -4487,15 +4487,15 @@ packages:
       - supports-color
     dev: true
 
-  /@vitery/html@0.0.0(vite@4.2.1):
-    resolution: {integrity: sha512-vsrBo6nz3K5ZaNkqlgiCb00FYgz79+jIkyS+nnZWVGsSEDZGaLB7ij/iRYWrg7UU/R+N83chrANfHV94hPvT5w==}
+  /@vitery/html@0.1.0(vite@4.2.1):
+    resolution: {integrity: sha512-t5A+I22uIae/lFjHC5m+j7oRjetaMuIgfMDi5iREq1x+ZvqFo3tU3YdZZEJDDxs7UkYT2BJUNPXTJRTFZX3wow==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^2.0.0 || ^3.0.0
+      vite: ^2.0.0 || ^3.0.0 || ^4.0.0
     dependencies:
       html-minifier-terser: 7.1.0
       lodash: 4.17.21
-      tslib: 2.5.0
+      tslib: 2.6.2
       vite: 4.2.1(@types/node@20.5.1)(less@4.1.3)
     dev: true
 
@@ -5385,7 +5385,7 @@ packages:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /camelcase-keys@2.1.0:
@@ -6557,7 +6557,7 @@ packages:
     resolution: {integrity: sha512-Kv5nKlh6yRrdrGvxeJ2e5y2eRUpkUosIW4A2AS38zwSz27zu7ufDwQPi5Jhs3XAlGNetl3bmnGhQsMtkKJnj3w==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /dot-prop@5.3.0:
@@ -9895,7 +9895,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /lowercase-keys@1.0.0:
@@ -10033,7 +10033,7 @@ packages:
       '@markuplint/parser-utils': 3.13.0
       angular-html-parser: 4.0.1
       synckit: 0.8.5
-      tslib: 2.5.0
+      tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11020,7 +11020,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /node-fetch@2.7.0:
@@ -11493,7 +11493,7 @@ packages:
     resolution: {integrity: sha512-RXlj7zCYokReqWpOPH9oYivUzLYZ5vAPIfEmCTNViosC78F8F0H9y7T7gG2M39ymgutxF5gcFEsyZQSph9Bp3A==}
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.5.0
+      tslib: 2.6.2
     dev: true
 
   /parent-module@1.0.1:
@@ -15941,7 +15941,7 @@ packages:
       fast-glob: 3.2.12
       minimatch: 7.4.5
       normalize-path: 3.0.0
-      tslib: 2.5.0
+      tslib: 2.6.2
       tsutils: 3.21.0(typescript@5.0.4)
       typescript: 5.0.4
     dev: true
