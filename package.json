@@ -73,7 +73,7 @@
     "lodash-es": "^4.17.21",
     "node-fs-storage": "^0.1.1",
     "nodemon": "^2.0.22",
-    "path-to-regexp": "^6.2.1",
+    "path-to-regexp": "^6.2.2",
     "proxy-agent": "^5.0.0",
     "rollup": "^3.20.2",
     "rollup-plugin-visualizer": "^5.9.2",
