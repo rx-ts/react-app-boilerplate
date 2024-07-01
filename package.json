@@ -69,7 +69,7 @@
     "express": "^4.19.2",
     "html-minifier-terser": "^7.2.0",
     "http-proxy-middleware": "^2.0.6",
-    "less": "^4.1.3",
+    "less": "^4.2.0",
     "lodash-es": "^4.17.21",
     "node-fs-storage": "^0.1.1",
     "nodemon": "^2.0.22",
