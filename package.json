@@ -75,7 +75,7 @@
     "nodemon": "^2.0.22",
     "path-to-regexp": "^6.2.2",
     "proxy-agent": "^5.0.0",
-    "rollup": "^3.20.2",
+    "rollup": "^3.29.4",
     "rollup-plugin-visualizer": "^5.9.2",
     "tsx": "^3.12.7",
     "type-coverage": "^2.25.0",
