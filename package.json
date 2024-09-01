@@ -81,7 +81,7 @@
     "type-coverage": "^2.29.1",
     "type-fest": "^3.13.1",
     "typed-query-selector": "^2.12.0",
-    "typescript": "^5.0.4",
+    "typescript": "^5.5.4",
     "vite": "^4.2.1",
     "vite-plugin-style-import": "^2.0.0"
   },
