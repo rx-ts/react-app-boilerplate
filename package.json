@@ -76,7 +76,7 @@
     "path-to-regexp": "^6.2.2",
     "proxy-agent": "^5.0.0",
     "rollup": "^3.29.4",
-    "rollup-plugin-visualizer": "^5.9.2",
+    "rollup-plugin-visualizer": "^5.12.0",
     "tsx": "^3.12.7",
     "type-coverage": "^2.25.0",
     "type-fest": "^3.8.0",
