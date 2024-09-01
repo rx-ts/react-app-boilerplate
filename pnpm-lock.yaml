@@ -6,10 +6,10 @@ dependencies:
     version: 5.0.1(react-dom@18.2.0)(react@18.2.0)
   '@react-enhanced/hooks':
     specifier: ^0.4.1
-    version: 0.4.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+    version: 0.4.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
   '@react-enhanced/plugins':
     specifier: ^0.1.1
-    version: 0.1.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+    version: 0.1.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
   antd:
     specifier: ^4.24.16
     version: 4.24.16(react-dom@18.2.0)(react@18.2.0)
@@ -141,8 +141,8 @@ devDependencies:
     specifier: ^2.29.1
     version: 2.29.1(typescript@5.0.4)
   type-fest:
-    specifier: ^3.8.0
-    version: 3.8.0
+    specifier: ^3.13.1
+    version: 3.13.1
   typed-query-selector:
     specifier: ^2.9.2
     version: 2.9.2
@@ -3731,7 +3731,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@react-enhanced/hooks@0.4.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0):
+  /@react-enhanced/hooks@0.4.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1):
     resolution: {integrity: sha512-LuWJyIc0XbTAjMIFW1XlCjX84B9/p8tTuA05axSxpTuJzrYWAeJcCgE13fJ/2pvoi1bsi1zhJa2ibTp7Fbke8g==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3742,17 +3742,17 @@ packages:
       type-fest:
         optional: true
     dependencies:
-      '@react-enhanced/shared': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
-      '@react-enhanced/utils': 0.2.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+      '@react-enhanced/shared': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
+      '@react-enhanced/utils': 0.2.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
       react: 18.2.0
       rxjs: 7.8.1
-      type-fest: 3.8.0
+      type-fest: 3.13.1
     transitivePeerDependencies:
       - lodash
       - lodash-es
     dev: false
 
-  /@react-enhanced/plugins@0.1.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0):
+  /@react-enhanced/plugins@0.1.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1):
     resolution: {integrity: sha512-2VPd7Yx9xPWe0HxXVUHeyCLYfwK2Uci/TUaoskN39kncZWCF7vgemVb5r89aO4MO4+fkR4n9vyCefl+gq7lDzg==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3763,16 +3763,16 @@ packages:
       type-fest:
         optional: true
     dependencies:
-      '@react-enhanced/translate': 0.1.2(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+      '@react-enhanced/translate': 0.1.2(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
       react: 18.2.0
       rxjs: 7.8.1
-      type-fest: 3.8.0
+      type-fest: 3.13.1
     transitivePeerDependencies:
       - lodash
       - lodash-es
     dev: false
 
-  /@react-enhanced/shared@0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0):
+  /@react-enhanced/shared@0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1):
     resolution: {integrity: sha512-pjWQtblmqTCzCgT6bsp7JoUWYo1UUbA1zMBBmHsnoMR9o0ZDNWrFC+C5ddfZ6DEfq47V3Qc1zfrydTutOZpZpw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3783,13 +3783,13 @@ packages:
       type-fest:
         optional: true
     dependencies:
-      '@react-enhanced/types': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+      '@react-enhanced/types': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
       react: 18.2.0
       rxjs: 7.8.1
-      type-fest: 3.8.0
+      type-fest: 3.13.1
     dev: false
 
-  /@react-enhanced/translate@0.1.2(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0):
+  /@react-enhanced/translate@0.1.2(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1):
     resolution: {integrity: sha512-ErJKEtfaDJHfFh8i8rqZ8lioRtxLqS0hmCJzisLCmNBMG1MLwNBbh6CRFd+O81stsU0QGSAtGw2Fq/fW5bALmQ==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3806,18 +3806,18 @@ packages:
       type-fest:
         optional: true
     dependencies:
-      '@react-enhanced/hooks': 0.4.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
-      '@react-enhanced/shared': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
-      '@react-enhanced/types': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
-      '@react-enhanced/utils': 0.2.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+      '@react-enhanced/hooks': 0.4.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
+      '@react-enhanced/shared': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
+      '@react-enhanced/types': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
+      '@react-enhanced/utils': 0.2.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
       lodash: 4.17.21
       lodash-es: 4.17.21
       react: 18.2.0
       rxjs: 7.8.1
-      type-fest: 3.8.0
+      type-fest: 3.13.1
     dev: false
 
-  /@react-enhanced/types@0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0):
+  /@react-enhanced/types@0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1):
     resolution: {integrity: sha512-3w1qik8N1qAsryU/9pyZgflYPEEIoPqaWrUXX/VM9gqAfxYwB18OIDbaWlic9AT5rmPRBQHj9I4CmPUNhCrfKQ==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3830,10 +3830,10 @@ packages:
     dependencies:
       react: 18.2.0
       rxjs: 7.8.1
-      type-fest: 3.8.0
+      type-fest: 3.13.1
     dev: false
 
-  /@react-enhanced/utils@0.2.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0):
+  /@react-enhanced/utils@0.2.1(lodash-es@4.17.21)(lodash@4.17.21)(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1):
     resolution: {integrity: sha512-mS7e0uhVxTHhn+R7VljARKlWRJ0fSr7kCqGYkoFPCmNs6MR8CXP8JHJux8B6HwAxOtdIK8+CEU1ksKJzGEOWqA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3847,8 +3847,8 @@ packages:
       lodash-es:
         optional: true
     dependencies:
-      '@react-enhanced/shared': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
-      '@react-enhanced/types': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.8.0)
+      '@react-enhanced/shared': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
+      '@react-enhanced/types': 0.2.1(react@18.2.0)(rxjs@7.8.1)(type-fest@3.13.1)
       lodash: 4.17.21
       lodash-es: 4.17.21
       react: 18.2.0
@@ -16120,8 +16120,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /type-fest@3.8.0:
-    resolution: {integrity: sha512-FVNSzGQz9Th+/9R6Lvv7WIAkstylfHN2/JYxkyhhmKFYh9At2DST8t6L6Lref9eYO8PXFTfG9Sg1Agg0K3vq3Q==}
+  /type-fest@3.13.1:
+    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
     engines: {node: '>=14.16'}
 
   /type-fest@4.10.2:
