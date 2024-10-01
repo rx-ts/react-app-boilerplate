@@ -43,10 +43,10 @@ devDependencies:
     version: 8.1.0(@markuplint/ml-core@3.15.0)(@types/node@20.5.1)(markuplint@3.15.0)(prettier@2.8.8)(svelte@3.58.0)(ts-node@10.9.1)(typescript@5.5.4)
   '@rollup/plugin-replace':
     specifier: ^5.0.7
-    version: 5.0.7(rollup@3.29.4)
+    version: 5.0.7(rollup@3.29.5)
   '@rollup/plugin-strip':
     specifier: ^2.1.0
-    version: 2.1.0(rollup@3.29.4)
+    version: 2.1.0(rollup@3.29.5)
   '@types/compression':
     specifier: ^1.7.5
     version: 1.7.5
@@ -76,7 +76,7 @@ devDependencies:
     version: 0.1.0(vite@4.2.1)
   '@vitery/svgr':
     specifier: ^0.1.0
-    version: 0.1.0(rollup@3.29.4)(typescript@5.5.4)(vite@4.2.1)
+    version: 0.1.0(rollup@3.29.5)(typescript@5.5.4)(vite@4.2.1)
   '@welldone-software/why-did-you-render':
     specifier: ^7.0.1
     version: 7.0.1(react@18.2.0)
@@ -129,11 +129,11 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.0.0
   rollup:
-    specifier: ^3.29.4
-    version: 3.29.4
+    specifier: ^3.29.5
+    version: 3.29.5
   rollup-plugin-visualizer:
     specifier: ^5.12.0
-    version: 5.12.0(rollup@3.29.4)
+    version: 5.12.0(rollup@3.29.5)
   tsx:
     specifier: ^3.14.0
     version: 3.14.0
@@ -3862,7 +3862,7 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@rollup/plugin-replace@5.0.7(rollup@3.29.4):
+  /@rollup/plugin-replace@5.0.7(rollup@3.29.5):
     resolution: {integrity: sha512-PqxSfuorkHz/SPpyngLyg5GCEkOcee9M1bkxiVDr41Pd61mqP1PLOoDPbpl44SB2mQGKwV/In74gqQmGITOhEQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3871,23 +3871,23 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.29.4)
+      '@rollup/pluginutils': 5.0.2(rollup@3.29.5)
       magic-string: 0.30.5
-      rollup: 3.29.4
+      rollup: 3.29.5
     dev: true
 
-  /@rollup/plugin-strip@2.1.0(rollup@3.29.4):
+  /@rollup/plugin-strip@2.1.0(rollup@3.29.5):
     resolution: {integrity: sha512-OKlIlXMFlH4nVxq0beNSIKVw0LkpNUpVjjvfzH5OAOAR5dhLZgLZBzwYX4ifIAs18YDrreMcZH4xnKmW9fI2AQ==}
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0(rollup@3.29.4)
+      '@rollup/pluginutils': 3.1.0(rollup@3.29.5)
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      rollup: 3.29.4
+      rollup: 3.29.5
     dev: true
 
-  /@rollup/pluginutils@3.1.0(rollup@3.29.4):
+  /@rollup/pluginutils@3.1.0(rollup@3.29.5):
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -3896,7 +3896,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 3.29.4
+      rollup: 3.29.5
     dev: true
 
   /@rollup/pluginutils@4.2.1:
@@ -3907,7 +3907,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils@5.0.2(rollup@3.29.4):
+  /@rollup/pluginutils@5.0.2(rollup@3.29.5):
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3919,7 +3919,7 @@ packages:
       '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.29.4
+      rollup: 3.29.5
     dev: true
 
   /@sindresorhus/is@0.7.0:
@@ -4630,7 +4630,7 @@ packages:
       vite: 4.2.1(@types/node@20.5.1)(less@4.2.0)
     dev: true
 
-  /@vitery/svgr@0.1.0(rollup@3.29.4)(typescript@5.5.4)(vite@4.2.1):
+  /@vitery/svgr@0.1.0(rollup@3.29.5)(typescript@5.5.4)(vite@4.2.1):
     resolution: {integrity: sha512-/fNUsnW+K071QZWIBHS6WwbEz6eh+4HlyDBP7tCBQa3BW9H9coihVLV28uPrtMf186zm5AWu8YZsTKhfiaqoHA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -4640,7 +4640,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.29.4)
+      '@rollup/pluginutils': 5.0.2(rollup@3.29.5)
       '@svgr/core': 7.0.0(typescript@5.5.4)
       tslib: 2.6.2
       vite: 4.2.1(@types/node@20.5.1)(less@4.2.0)
@@ -14826,7 +14826,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer@5.12.0(rollup@3.29.4):
+  /rollup-plugin-visualizer@5.12.0(rollup@3.29.5):
     resolution: {integrity: sha512-8/NU9jXcHRs7Nnj07PF2o4gjxmm9lXIrZ8r175bT9dK8qoLlvKTwRMArRCMgpMGlq8CTLugRvEmyMeMXIU2pNQ==}
     engines: {node: '>=14'}
     hasBin: true
@@ -14838,13 +14838,13 @@ packages:
     dependencies:
       open: 8.4.2
       picomatch: 2.3.1
-      rollup: 3.29.4
+      rollup: 3.29.5
       source-map: 0.7.4
       yargs: 17.7.1
     dev: true
 
-  /rollup@3.29.4:
-    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
+  /rollup@3.29.5:
+    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -16610,7 +16610,7 @@ packages:
       less: 4.2.0
       postcss: 8.4.21
       resolve: 1.22.2
-      rollup: 3.29.4
+      rollup: 3.29.5
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
