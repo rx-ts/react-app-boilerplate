@@ -87,8 +87,8 @@ devDependencies:
     specifier: ^1.2.1
     version: 1.2.1
   compression:
-    specifier: ^1.7.4
-    version: 1.7.4
+    specifier: ^1.7.5
+    version: 1.7.5
   connect-history-api-fallback:
     specifier: ^2.0.0
     version: 2.0.0
@@ -5494,11 +5494,6 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /bytes@3.0.0:
-    resolution: {integrity: sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw==}
-    engines: {node: '>= 0.8'}
-    dev: true
-
   /bytes@3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
@@ -5896,16 +5891,16 @@ packages:
       mime-db: 1.52.0
     dev: true
 
-  /compression@1.7.4:
-    resolution: {integrity: sha512-jaSIDzP9pZVS4ZfQ+TzvtiWhdpFhE2RDHz8QJkpX9SIpLq88VueF5jJw6t+6CUQcAoA6t+x89MLrWAqpfDE8iQ==}
+  /compression@1.7.5:
+    resolution: {integrity: sha512-bQJ0YRck5ak3LgtnpKkiabX5pNF7tMUh1BSy2ZBOTh0Dim0BUu6aPPwByIns6/A5Prh8PufSPerMDUklpzes2Q==}
     engines: {node: '>= 0.8.0'}
     dependencies:
-      accepts: 1.3.8
-      bytes: 3.0.0
+      bytes: 3.1.2
       compressible: 2.0.18
       debug: 2.6.9
+      negotiator: 0.6.4
       on-headers: 1.0.2
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
       vary: 1.1.2
     transitivePeerDependencies:
       - supports-color
@@ -11203,6 +11198,11 @@ packages:
 
   /negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
+    engines: {node: '>= 0.6'}
+    dev: true
+
+  /negotiator@0.6.4:
+    resolution: {integrity: sha512-myRT3DiWPHqho5PrJaIRyaMv2kgYf0mUVgBNOYMuCH5Ki1yEiQaf/ZJuQ62nvpc44wL5WDbTX7yGJi1Neevw8w==}
     engines: {node: '>= 0.6'}
     dev: true
 
