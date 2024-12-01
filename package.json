@@ -78,7 +78,7 @@
     "rollup": "^3.29.5",
     "rollup-plugin-visualizer": "^5.12.0",
     "tsx": "^3.14.0",
-    "type-coverage": "^2.29.1",
+    "type-coverage": "^2.29.7",
     "type-fest": "^3.13.1",
     "typed-query-selector": "^2.12.0",
     "typescript": "^5.5.4",
