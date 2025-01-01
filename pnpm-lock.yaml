@@ -123,8 +123,8 @@ devDependencies:
     specifier: ^2.0.22
     version: 2.0.22
   path-to-regexp:
-    specifier: ^6.2.2
-    version: 6.2.2
+    specifier: ^6.3.0
+    version: 6.3.0
   proxy-agent:
     specifier: ^5.0.0
     version: 5.0.0
@@ -11834,8 +11834,8 @@ packages:
     resolution: {integrity: sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==}
     dev: true
 
-  /path-to-regexp@6.2.2:
-    resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
+  /path-to-regexp@6.3.0:
+    resolution: {integrity: sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==}
     dev: true
 
   /path-type@1.1.0:
