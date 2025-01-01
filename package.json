@@ -64,7 +64,7 @@
     "compression": "^1.7.5",
     "connect-history-api-fallback": "^2.0.0",
     "consola": "^2.15.3",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "dotenv-expand": "^10.0.0",
     "express": "^4.19.2",
     "html-minifier-terser": "^7.2.0",
