@@ -111,8 +111,8 @@ devDependencies:
     specifier: ^2.0.7
     version: 2.0.7(@types/express@4.17.21)
   less:
-    specifier: ^4.2.1
-    version: 4.2.1
+    specifier: ^4.2.2
+    version: 4.2.2
   lodash-es:
     specifier: ^4.17.21
     version: 4.17.21
@@ -151,7 +151,7 @@ devDependencies:
     version: 5.5.4
   vite:
     specifier: ^4.2.1
-    version: 4.2.1(@types/node@20.5.1)(less@4.2.1)
+    version: 4.2.1(@types/node@20.5.1)(less@4.2.2)
   vite-plugin-style-import:
     specifier: ^2.0.0
     version: 2.0.0(vite@4.2.1)
@@ -4613,7 +4613,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.1(@types/node@20.5.1)(less@4.2.1)
+      vite: 4.2.1(@types/node@20.5.1)(less@4.2.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4627,7 +4627,7 @@ packages:
       html-minifier-terser: 7.2.0
       lodash: 4.17.21
       tslib: 2.6.2
-      vite: 4.2.1(@types/node@20.5.1)(less@4.2.1)
+      vite: 4.2.1(@types/node@20.5.1)(less@4.2.2)
     dev: true
 
   /@vitery/svgr@0.1.0(rollup@3.29.5)(typescript@5.5.4)(vite@4.2.1):
@@ -4643,7 +4643,7 @@ packages:
       '@rollup/pluginutils': 5.0.2(rollup@3.29.5)
       '@svgr/core': 7.0.0(typescript@5.5.4)
       tslib: 2.6.2
-      vite: 4.2.1(@types/node@20.5.1)(less@4.2.1)
+      vite: 4.2.1(@types/node@20.5.1)(less@4.2.2)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -9817,8 +9817,8 @@ packages:
       through2: 0.6.5
     dev: true
 
-  /less@4.2.1:
-    resolution: {integrity: sha512-CasaJidTIhWmjcqv0Uj5vccMI7pJgfD9lMkKtlnTHAdJdYK/7l8pM9tumLyJ0zhbD4KJLo/YvTj+xznQd5NBhg==}
+  /less@4.2.2:
+    resolution: {integrity: sha512-tkuLHQlvWUTeQ3doAqnHbNn8T6WX1KA8yvbKG9x4VtKtIjHsVKQZCH11zRgAfbDAXC2UNIg/K9BYAAcEzUIrNg==}
     engines: {node: '>=6'}
     hasBin: true
     dependencies:
@@ -16555,10 +16555,10 @@ packages:
       fs-extra: 10.1.0
       magic-string: 0.25.9
       pathe: 0.2.0
-      vite: 4.2.1(@types/node@20.5.1)(less@4.2.1)
+      vite: 4.2.1(@types/node@20.5.1)(less@4.2.2)
     dev: true
 
-  /vite@4.2.1(@types/node@20.5.1)(less@4.2.1):
+  /vite@4.2.1(@types/node@20.5.1)(less@4.2.2):
     resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -16585,7 +16585,7 @@ packages:
     dependencies:
       '@types/node': 20.5.1
       esbuild: 0.17.15
-      less: 4.2.1
+      less: 4.2.2
       postcss: 8.4.21
       resolve: 1.22.2
       rollup: 3.29.5
