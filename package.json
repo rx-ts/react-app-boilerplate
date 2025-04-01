@@ -8,7 +8,7 @@
   "license": "MIT",
   "packageManager": "pnpm@8.1.1",
   "engines": {
-    "node": ">=18.20.7"
+    "node": ">=18.20.8"
   },
   "keywords": [
     "react",
