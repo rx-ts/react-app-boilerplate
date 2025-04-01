@@ -87,8 +87,8 @@ devDependencies:
     specifier: ^1.2.1
     version: 1.2.1
   compression:
-    specifier: ^1.7.5
-    version: 1.7.5
+    specifier: ^1.8.0
+    version: 1.8.0
   connect-history-api-fallback:
     specifier: ^2.0.0
     version: 2.0.0
@@ -5871,8 +5871,8 @@ packages:
       mime-db: 1.52.0
     dev: true
 
-  /compression@1.7.5:
-    resolution: {integrity: sha512-bQJ0YRck5ak3LgtnpKkiabX5pNF7tMUh1BSy2ZBOTh0Dim0BUu6aPPwByIns6/A5Prh8PufSPerMDUklpzes2Q==}
+  /compression@1.8.0:
+    resolution: {integrity: sha512-k6WLKfunuqCYD3t6AsuPGvQWaKwuLLh2/xHNcX4qE+vIfDNXpSqnrhwA7O53R7WVQUnt8dVAIW+YHr7xTgOgGA==}
     engines: {node: '>= 0.8.0'}
     dependencies:
       bytes: 3.1.2
